@@ -9,6 +9,15 @@ The Fetch-SWE program is intended to parse and collect data from a csv file cont
 * The oldest points are spent first (oldest based on transaction timestamp and not the order they’re received) 
 * No payer's points go negative.
 
+After the points are spent, the program will output a dictionary listing the remaining points for each payer in the following format:
+```
+{
+      "payer1": remaining points,
+      "payer2": remaining points,
+      ...
+}
+```
+
 ## How to use the program?
 
 The project is coded entirely in Python v3.10.7. Before running this program, please ensure that you've downloaded and installed the latest Python version.
