@@ -1,6 +1,6 @@
-class Payer:
-    def __init__(self, name, points, timestamp):
-        self.name = name
+class Transaction:
+    def __init__(self, payer, points, timestamp):
+        self.payer = payer
         self.points = points
         self.timestamp = timestamp
 
@@ -8,7 +8,7 @@ class Payer:
         return self.timestamp < other.timestamp
     
     def __str__(self):
-        return f"Payer {self.name} has {self.points} points on {self.timestamp}"
+        return f"Payer {self.payer} has {self.points} points on {self.timestamp}"
     
     def __repr__(self):
         return str(self)

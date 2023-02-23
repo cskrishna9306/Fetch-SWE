@@ -1,3 +1,33 @@
 1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+
+- The datetime package was quite helpful in sorting payers by their timestamp. 
+- Furthermore, I specifically chose the datetime package in order to exploit its in-built strptime() function to parse through a specified date-time format and create a comparable datetime object.
+
+- I chose to use the csv library because of its ability to parse through csv file, split across ",", and creating a dictionary with the column names as the keys
+- The sys library only served the single purpose of extracting command line arguments
+
+- Python supports Object-Oriented Programming which proved to be useful in my decision to create Payer objects
+
 2. What are the advantages and disadvantages of your solution?
+
+Advantages:
+a. Using objects over tuples allows us to modify values unlike tuples which are immutable
+b. Better over a list of lists because of easier readability
+c. My code approach will be able to read and store a large range of payers unlike an approach that uses lists to store each payer's attributes
+
+Disadvantages:
+a. Does not check if current list of payers will be enough to match the user's spending
+b.
+c.
+
 3. What has been a favorite school/personal project thus far? What about it that challenged you?
+
+Player Rating Application
+- Working with multiple languages such as Java and MySQl
+- Data querying for huge datasets with over 100,000 observations and 50+ attributes
+- Learning how to integrate MySQL database with Java frontend
+- Learning how to create stored procedures in MySQL to fulfill multipurpose querying
+
+Challenges:
+- Integrating MySQL database with Java frontend
+- Creating stored procedures for multipurpose querying in MySQL
