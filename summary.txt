@@ -1,33 +1,38 @@
+
 1. Why did you choose the tools, libraries, and language you used for the coding exercise?
 
-- The datetime package was quite helpful in sorting payers by their timestamp. 
+- Python supports Object-Oriented Programming which proved to be useful in my design decision to create Transaction objects representing each transaction in the CSV file.
+- In particular, the __lt__() special method allowed me to run the generic sort() function over a list of Transaction objects and sort them based on their timestamps.
+- Additionally, Python comes with a variety of in-built packages that enables easier coding and readability for non-technical personnel.
+
+- For example, the datetime package was quite helpful in creating comparable datetime objects and sorting transactions by their timestamp. 
 - Furthermore, I specifically chose the datetime package in order to exploit its in-built strptime() function to parse through a specified date-time format and create a comparable datetime object.
 
-- I chose to use the csv library because of its ability to parse through csv file, split across ",", and creating a dictionary with the column names as the keys
-- The sys library only served the single purpose of extracting command line arguments
-
-- Python supports Object-Oriented Programming which proved to be useful in my decision to create Payer objects
+- I chose to use the csv library because of its functionality to parse through csv files and create a dictionary with the column names as the keys.
+- The sys library only served the singular purpose of extracting command line arguments while the json library was used to match the output syntax provided in the project specs.
 
 2. What are the advantages and disadvantages of your solution?
 
 Advantages:
-a. Using objects over tuples allows us to modify values unlike tuples which are immutable
-b. Better over a list of lists because of easier readability
-c. My code approach will be able to read and store a large range of payers unlike an approach that uses lists to store each payer's attributes
+a. Provides better readability over solutions in lower level languages like C and C++
+b. Provides easier readability when compared to solutions using a list of lists for storing transactions
+c. My code approach will be able to read and store a bigger dataset of transactions unlike an approach that uses lists to store each transaction's attributes
+d. A Greedy solution to the given problem allows us to formulate a way to spend the user's points in O(NlogN)
 
 Disadvantages:
-a. Does not check if current list of payers will be enough to match the user's spending
-b.
-c.
+a. Code in Python is less time efficient (takes longer to run during execution) when compared to languages like C, C++, and Java
+b. This solution approach will not work in languages that do not support OOP like C
+c. Does not check if current list of transactions will be enough to match the user's spending
 
 3. What has been a favorite school/personal project thus far? What about it that challenged you?
 
-Player Rating Application
-- Working with multiple languages such as Java and MySQl
-- Data querying for huge datasets with over 100,000 observations and 50+ attributes
-- Learning how to integrate MySQL database with Java frontend
-- Learning how to create stored procedures in MySQL to fulfill multipurpose querying
+The Player Rating Application has been my favorite personal project so far.
+- The application generates football player rankings within a specified team based on a few select player statistics.
+- It is the culmination of Java UI and MySQL backend.
+- The project includes subordinate functionalities for allowing users to view stadium information and game statistics since 2010
 
 Challenges:
 - Integrating MySQL database with Java frontend
 - Creating stored procedures for multipurpose querying in MySQL
+- Working  simultaneously with multiple programming languages such as Java and MySQl
+- Data querying for huge datasets with over 100,000 observations and 50+ attributes
