@@ -4,7 +4,7 @@
 
 Fetch users accumulate reward points in their accounts owing to transactions pertaining to certain payers. While the particulars of these transactions are abstracted from the user, the accounting team ensures that these points are spent appropriately in the order of the transaction timestamp.
 
-The Fetch-SWE program is intended to parse and collect data from a csv file containing a list of the before-mentioned transactions. After storing this data within custom user-defined object classes, the code within this repository spends the transaction points according to the following rules:
+The Fetch-SWE program is intended to parse and collect data from a csv file containing a list of the before-mentioned transactions. After storing this data within custom user-defined object classes, the code within this repository spends the transaction points according to the following rules dictated by the accounting team:
 
 * The oldest points are spent first (oldest based on transaction timestamp and not the order they’re received) 
 * No payer's points can go negative.
