@@ -15,7 +15,7 @@ class Transaction:
         return self.timestamp < other.timestamp
     
     def __str__(self):
-        return f"Payer {self.payer} has {self.points} points on {self.timestamp}"
+        return f"Transaction with {self.payer} has {self.points} points on {self.timestamp}"
     
     def __repr__(self):
         return str(self)
