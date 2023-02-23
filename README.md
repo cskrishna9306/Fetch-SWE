@@ -26,13 +26,13 @@ If you're using VSCode as your IDE, you can download the necessary Python extens
 
 If you've previously downloaded and used Python, please ensure that you're running a version >= 3.10.7 before running this project. You can check the current Python version by running the following command in your terminal:
 ```
-{python|python3} --version
+python3 --version
 ```
 
 If you're running a version < 3.10.7., please update Python to the latest version by following the above link and instructions.
 
 Once you've downloaded the latest Python version, you can compile and run the program by typing the following command in your terminal:
 ```
-{python|python3} mycode.py [POINTS] [CSV_FILE_NAME]
+python3 mycode.py [POINTS] [CSV_FILE_NAME]
 ```
 While running the program, please ensure that you pass positive integers for the points and the input csv file exists in the same working directory as the Python code.
