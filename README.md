@@ -22,7 +22,7 @@ After the points are spent, the program will output a dictionary listing the rem
 
 The project is coded entirely in Python v3.10.7. Before running this program, please ensure that you've downloaded and installed the latest Python version.
 
-If you're using VSCode as your IDE, you can download the necessary Python extensions within VSCode. Otherwise, you can visit [https://www.python.org/downloads/](https://www.python.org/downloads/) to download the latest Python version. Before downloading, make sure to read the available Python versions so as to install the right package corresponding to your machine's OS.
+If you're using VSCode as your IDE, you can download the necessary Python extensions within VSCode. Otherwise, you can visit [https://www.python.org/downloads/](https://www.python.org/downloads/) to download the latest Python version. Before downloading, make sure to read the available Python versions in order to install the right package corresponding to your machine's OS.
 
 If you've previously downloaded and used Python, please ensure that you're running a version >= 3.10.7 before running this project. You can check the current Python version by running the following command in your terminal:
 ```
